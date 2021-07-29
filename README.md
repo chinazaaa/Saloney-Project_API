@@ -4,6 +4,9 @@
 
 The API documentation is available [here](https://documenter.getpostman.com/view/9334444/TzsbK751).
 
+## Hosted API
+https://saloney.herokuapp.com
+
 ## Development
 
 
