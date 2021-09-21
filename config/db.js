@@ -5,7 +5,7 @@ const { MONGOLAB_URI, API_PORT } = process.env;
 mongoose.Promise = global.Promise;
 
 try {
-  mongoose .connect('mongodb+srv://naza:yn7koxZweF7p9rpp@cluster0.gcvvq.mongodb.net/saloneydb?retryWrites=true&w=majority', {
+  mongoose .connect(MONGOLAB_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false
